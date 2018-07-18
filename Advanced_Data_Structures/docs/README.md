@@ -1,3 +1,5 @@
+![jpg](Sandbox_Logo_new2015.jpg)
+
 # Advanced Data Structures
 In this module of the assingment we are going study to **Stacks**, **Queues**, and **Sets**.
 
@@ -11,8 +13,12 @@ In order to implement a few methods in order to use our class. the `push` mothod
 ## Queues
 Queues are a FIFO (First In First Out) data structure. The figure below show the ideas behind a queue. Think of them like a Line at the grocery store, the first person to get in the line is the first person to be helped and the first to exit the line. We will implement queues in the same way we implemented stack; with a class wrapped around a list. We will need to implemement the some of the same methods that we implemented in the `My_Stack` class. Primarily the `push`, `pop`, and `peek` methods.
 
+
+
 ![png](queues.png)
 
+---
+Our implementations of stacks and queues are useful and behave exacltly like they should however 
 ## Strings
 Strings in python are collections of characters, however they are a bit different than the collections we have looked at so far. The are *immutable*. This means that they cannot be changed once they are created. For example, if you try something like this everything works fine:
 
@@ -36,6 +42,8 @@ Sets are very very similar to Lists with a few key exceptions, primarily a set o
 
 Sets have a number of different operations that we will study. Primarily we will look at the Union of sets and the Intersection of sets. When we take the *union* of sets, we create a new set that contains all of the unique elements contained in the two original set.
 
-![png](union.png) 
+![png](../docs/union.png) 
 
 The *Intersection* of two sets results in a set that contains only the elements that exist in both of the original set. 
+
+![png](intersec.png)
